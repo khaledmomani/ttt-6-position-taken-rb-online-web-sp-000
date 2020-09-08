@@ -1,5 +1,5 @@
-def position_taken? (baord = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
-  if (board[0] == " ")
+def position_taken? (baord = [index])
+  if (board[index] == " ") || (board[index] == "")
     return false
   end
 end
