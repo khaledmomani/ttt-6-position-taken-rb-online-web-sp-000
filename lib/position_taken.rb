@@ -11,4 +11,5 @@ def position_taken? (baord, index)
     true
   end
 end
+end
 
